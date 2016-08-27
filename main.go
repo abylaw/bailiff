@@ -180,9 +180,9 @@ func hired(c *cli.Context) {
 func main() {
 	app := cli.NewApp()
 	app.Name = "bailiff"
-	app.Usage = "Send a defendant to BenchLabs/courtroom"
+	app.Usage = "Send a defendant to your courtroom."
 	app.Authors = []cli.Author{
-		{Name: "jeffling", Email: "jeff@bench.co"},
+		{Name: "jeffling", Email: "jeff.ummu@gmail.com"},
 		{Name: "abylaw", Email: "andrea@bench.co"},
 	}
 	app.Commands = []cli.Command{
